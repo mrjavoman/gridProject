@@ -50,6 +50,10 @@ export function TodoList(props) {
 
   return (
     <div className='todo'>
+        <video width="320" height="240" controls>
+        <source src="../video/SampleVideo_1280x720_1mb.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> 
       <Grid style="background-color:gray" />
     </div>
   );
